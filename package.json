@@ -41,5 +41,8 @@
   },
   "publishConfig": {
     "registry":"https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "publish": "npm publish --access public" // this was being triggered by running `npm publish`
   }
 }
