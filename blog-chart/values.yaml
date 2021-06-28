@@ -8,7 +8,7 @@ image:
   repository: https://npm.pkg.github.com/
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "cloudplatformblog 0.1.1"
+  tag: "@bluewhale-users/cloudplatformblog@0.1.1"
 
 imagePullSecrets: []
 nameOverride: ""
