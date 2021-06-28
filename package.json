@@ -35,7 +35,11 @@
       "last 1 safari version"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluewhale-users/cloudplatformblog.git"
+  },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/cloudplatformblog"
+    "registry":"https://npm.pkg.github.com/"
   }
 }
