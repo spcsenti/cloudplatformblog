@@ -35,7 +35,11 @@
       "last 1 safari version"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hnc-hskim/cloudplatformblog"
+  },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@hnc-hskim"
+    "registry":"https://npm.pkg.github.com/cloudplatformblog"
   }
 }
