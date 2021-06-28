@@ -53,12 +53,7 @@ ingress:
           serviceName: chart-example.local
           servicePort: 80
 
-## The Ingress Controller processes all the VirtualServer/VirtualServerRoute/TransportServer resources that do not have the "ingressClassName" field for all versions of kubernetes.
-ingressClass: nginx
 
-## For kubernetes versions >= 1.18 this flag will be IGNORED.
-## Ignore Ingress resources without the "kubernetes.io/ingress.class" annotation
-useIngressClassOnly: false
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
