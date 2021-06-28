@@ -36,6 +36,6 @@
     ]
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry":"https://npm.pkg.github.com/@hnc-hskim"
   }
 }
