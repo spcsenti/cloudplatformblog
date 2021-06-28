@@ -32,7 +32,7 @@ spec:
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           #image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
-          image: "{{ .Values.image.repository }}:{{ @bluewhale-users/cloudplatformblog: 0.1.2 }}"
+          image: https://npm.pkg.github.com:@bluewhale-users/cloudplatformblog:0.1.2
           imagePullPolicy: "{{ .Values.image.pullPolicy }}"
           ports:
             - name: http
