@@ -6,9 +6,9 @@ replicaCount: 1
 
 image:
   repository: https://npm.pkg.github.com/
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "cloudplatformblog"
+  tag: "0.1.1"
 
 imagePullSecrets: []
 nameOverride: ""
