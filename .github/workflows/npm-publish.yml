@@ -42,11 +42,11 @@ jobs:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
           
-#      - name: Setup GIT
-#        run: |
-#          git switch -c master
-#          git config user.email ""
-#          git config user.name "Publish Action"   
+      - name: Setup GIT
+        run: |
+          git switch -c master
+          git config user.email "spcsenti@gmail.com"
+          git config user.name "Publish Action"   
           
       - name: Bump package.json version
         env:
