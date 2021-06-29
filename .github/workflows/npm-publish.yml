@@ -42,9 +42,12 @@ jobs:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
           
+      #- name: Switch branch
+      #  run: |
+      #    #git switch -c master
+          
       - name: Setup GIT
         run: |
-#          git switch -c master
           git config user.email "spcsenti@gmail.com"
           git config user.name "Publish Action"   
           
