@@ -1,5 +1,5 @@
 {
-  "name": "bluewhale-users/cloudplatformblog",
+  "name": "@bluewhale-users/cloudplatformblog",
   "version": "0.1.2",
   "private": false,
   "dependencies": {
