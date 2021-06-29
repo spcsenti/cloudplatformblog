@@ -1,5 +1,5 @@
 {
-  "name": "@bluewhale-users/cloudplatformblog",
+  "name": "bluewhale-users/cloudplatformblog",
   "version": "0.1.2",
   "private": false,
   "dependencies": {
@@ -40,6 +40,6 @@
     "url": "https://github.com/bluewhale-users/cloudplatformblog.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@bluewhale-users"
+    "registry":"https://npm.pkg.github.com/bluewhale-users"
   } 
 }
