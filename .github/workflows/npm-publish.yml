@@ -3,9 +3,16 @@
 
 name: Node.js Package
 
-on: 
-  release: 
-    types: [created]
+#on: 
+#  release: 
+#    types: [created]
+    
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'dist/*'
 
 jobs:
   build:
@@ -38,6 +45,20 @@ jobs:
         with:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
+          
+      - name: Setup GIT
+        run: |
+          git switch -c master
+          git config user.email ""
+          git config user.name "Publish Action"   
+          
+      - name: Bump package.json version
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        run: |
+          npm version patch
+          git push "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY"
+          
       - run: npm ci
       - run: npm publish
         env:
