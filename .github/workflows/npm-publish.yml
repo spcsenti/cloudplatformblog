@@ -44,7 +44,7 @@ jobs:
           
       - name: Setup GIT
         run: |
-          git switch -c master
+#          git switch -c master
           git config user.email "spcsenti@gmail.com"
           git config user.name "Publish Action"   
           
