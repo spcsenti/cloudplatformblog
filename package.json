@@ -40,6 +40,6 @@
     "url": "https://github.com/bluewhale-users/cloudplatformblog.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@bluewhale-users"
+    "registry":"https://npm.pkg.github.com/bluewhale-users"
   } 
 }
